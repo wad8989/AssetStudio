@@ -68,7 +68,7 @@ namespace AssetStudio
             LoadFile(reader);
         }
 
-        private void LoadFile(FileReader reader)
+        public void LoadFile(FileReader reader)
         {
             switch (reader.FileType)
             {
